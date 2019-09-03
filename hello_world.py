@@ -7,7 +7,7 @@ def start(update, context):
     context.bot.send_message(chat_id=update.message.chat_id, text="I'm a bot, please talk to me!")
 
 def main():
-    updater = Updater(token='841166799:AAG-HKf9gZKLLmaG6mp_4dgn4NNS2NIRRN8', use_context=True)
+    updater = Updater(token='NO_KEY_FOR_YOU', use_context=True)
     dispatcher = updater.dispatcher
 
     logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
